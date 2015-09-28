@@ -1,0 +1,23 @@
+{
+  "name": "daniel-sc/aop-dynamic-conjugation",
+  "description": "failing unit test for dynamic goaop pointcut together with conjugation",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "author's name",
+      "email": "email@example.com"
+    }
+  ],
+  "autoload": {
+    "classmap": [
+      "application/",
+      "aop/"
+    ]
+  },
+  "require": {
+    "goaop/framework": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.2.*"
+  }
+}
