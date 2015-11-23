@@ -7,6 +7,7 @@ class TestDynamicConjugation extends PHPUnit_Framework_TestCase
     public static function setUpBeforeClass()
     {
         DefaultAspectKernel::getInstance()->init([
+            'cacheDir' => getenv('GOAOP_CACHE_DIR') ? getenv('GOAOP_CACHE_DIR') : null,
             'debug' => true,
             'includePaths' => [__DIR__ . '/../application/']
         ]);
