@@ -6,4 +6,5 @@ php:
 script: phpunit TestDynamicConjugation test/TestDynamicConjugation.php
 reset_minion: true
 before_script:
+  - composer selfupdate
   - composer install
