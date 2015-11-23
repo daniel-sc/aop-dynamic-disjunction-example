@@ -3,7 +3,7 @@ php:
   - 5.4
   - 5.5
   - 5.6
-script: phpunit --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage TestDynamicConjugation test/TestDynamicConjugation.php
+script: vendor/bin/phpunit --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage TestDynamicConjugation test/TestDynamicConjugation.php
 reset_minion: true
 before_script:
   - composer selfupdate
