@@ -8,3 +8,5 @@ reset_minion: true
 before_script:
   - composer selfupdate
   - composer install
+env:
+  - GOAOP_CACHE_DIR=/tmp
