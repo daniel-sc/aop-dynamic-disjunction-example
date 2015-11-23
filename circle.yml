@@ -4,4 +4,4 @@ machine:
     
 test:
   override:
-    - phpunit test
+    - phpunit TestDynamicConjugation test/TestDynamicConjugation.php
