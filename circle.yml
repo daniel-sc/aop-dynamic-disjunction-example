@@ -1,6 +1,8 @@
 machine:
   php:
     version: 5.4.5
+  environment:
+    GOAOP_CACHE_DIR: /tmp
     
 test:
   override:
